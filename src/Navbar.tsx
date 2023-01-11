@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         //create a portfolio nav bar
-        <nav className="flex justify-between items-center h-16 bg-black text-white relative" role="navigation">
+        <nav className="flex justify-between items-center h-16 bg-black text-white " role="navigation">
             <Link to="/" className="pl-8">
                 Thomas Crowe
             </Link>
