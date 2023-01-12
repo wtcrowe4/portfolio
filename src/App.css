@@ -32,3 +32,38 @@ nav {
   
 }
 
+.hero-text h1 {
+  font-family: Miss Saint Delafield;
+  font-size: 6rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.footer-container {
+  background-color: black;
+  height: 5vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  border: 3px solid rgb(56, 56, 56);
+}
+
+.footer-container ul {
+  display: flex;
+  
+  
+}
+
+.footer-container ul li {
+  font-size: 1.5rem;
+  list-style: none;
+  margin: 1.5rem;
+}
