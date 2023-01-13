@@ -7,6 +7,8 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Footer from './Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Resume from './Resume';
+import Testimonials from './Testimonials';
 
 
 
@@ -19,8 +21,8 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/resume" element={<Contact />} />
-          <Route path="/testimonials" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
 
         </Routes>
