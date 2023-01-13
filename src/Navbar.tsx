@@ -20,6 +20,12 @@ function Navbar() {
                 <Link to="/projects" className="p-4">
                     Projects
                 </Link>
+                <Link to="/resume" className="p-4">
+                    Resume
+                </Link>
+                <Link to="/testimonials" className="p-4">
+                    Testimonials
+                </Link>
                 <Link to="/contact" className="p-4">
                     Contact
                 </Link>

@@ -6,14 +6,14 @@
 .App {
   text-align: center;
   background-color: rgb(56, 56, 56);
-  background: linear-gradient(to right, black, rgb(56, 56, 56), black);
+  background: linear-gradient(to right, rgb(34, 34, 34), rgb(139, 139, 139), rgb(34, 34, 34));
   
   height: 100vh;
 
 }
 
 nav {
-  border: 3px solid rgb(56, 56, 56);
+  border-bottom: 2px solid rgb(139, 139, 139); /* rgb(56, 56, 56);*/
   
 }
 
