@@ -7,8 +7,8 @@
   text-align: center;
   background-color: rgb(56, 56, 56);
   background: linear-gradient(to right, rgb(34, 34, 34), rgb(139, 139, 139), rgb(34, 34, 34));
-  
-  height: 100vh;
+  min-height: 100vh;
+  padding-bottom: 30px;
 
 }
 
@@ -43,6 +43,38 @@ nav {
   text-shadow: 2px 2px 2px black;
 }
 
+.about-content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.projects-content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.resume-image {
+  border: 2px solid rgb(139, 139, 139);
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.headshot-image{
+  border: 2px solid rgb(139, 139, 139);
+  box-shadow: 2px 2px 2px 2px black;
+}
+
 .footer-container {
   background-color: black;
   height: 5vh;
@@ -53,7 +85,8 @@ nav {
   align-items: center;
   position: fixed;
   bottom: 0;
-  border: 3px solid rgb(56, 56, 56);
+  border-top: 3px solid rgb(139, 139, 139);
+  
 }
 
 .footer-container ul {
@@ -65,5 +98,5 @@ nav {
 .footer-container ul li {
   font-size: 1.5rem;
   list-style: none;
-  margin: 1.5rem;
+  margin: 0 1rem;
 }
