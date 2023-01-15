@@ -32,15 +32,19 @@ nav {
   
 }
 
+
+
 .hero-text h1 {
   font-family: Miss Saint Delafield;
   font-size: 6rem;
   text-shadow: 2px 2px 2px black;
+  
 }
 
 .hero-text h2 {
   font-size: 2rem;
   text-shadow: 2px 2px 2px black;
+  
 }
 
 .about-content-section {
