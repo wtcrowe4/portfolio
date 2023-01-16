@@ -9,13 +9,13 @@ function Contact() {
                 <div className="col-span-1 m-20 contact-content-section">
                    <ul>
                         <li>
-                            <h2 className="text-white">Email: <a href="*">wcrowe@g.clemson.edu</a></h2>
+                            <h2 className="text-white text-2xl">Email: <a href="*">wcrowe@g.clemson.edu</a></h2>
                         </li>
                         <li>
-                            <h2 className="text-white">Phone: (864) 630-3512</h2>
+                            <h2 className="text-white text-2xl">Phone: (864) 630-3512</h2>
                         </li>
                         <li>
-                            <h2 className="text-white">LinkedIn: <a href="*">L</a></h2>
+                            <h2 className="text-white text-2xl">LinkedIn: <a href="https://www.linkedin.com/in/wthomascrowe">wthomascrowe</a></h2>
                         </li>
                     </ul>
                 </div>
