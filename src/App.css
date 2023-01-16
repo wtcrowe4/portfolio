@@ -17,6 +17,11 @@ nav {
   
 }
 
+.header {
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px black;
+}
+
 
 .hero-container {
   background: url(./assets/images/golf.png) no-repeat center center;

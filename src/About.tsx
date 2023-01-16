@@ -5,8 +5,8 @@ import React from 'react';
 function About() {
     return (
         <div className="about-container">
-            <div className="about-header">
-                <h1 className="text-white text-3xl m-3">About Me</h1>
+            <div className="about-header header">
+                <h1 className="text-white text-3xl m-20 header">About Me</h1>
             </div>
             <div className="about-content grid grid-cols-2 row-auto m-50 p-10">
                 <div className="col-span-1 m-20 about-content-section">
@@ -59,6 +59,7 @@ function About() {
                             <li>PostgreSQL</li>
                             <li>SQL</li>
                             <li>MongoDB</li>
+                            <li>API</li>
                             <li>Git</li>
                             <li>GitHub</li>
                         </ul>
@@ -69,7 +70,7 @@ function About() {
                     <p className="text-white">Other tech stacks I have experimented with:
                         <ul>
                             <li>C#</li>
-                            <li>ASP.NET</li>
+                            <li>.NET</li>
                             <li>Angular</li>
                             <li>Vue</li>
                             <li>Svelt</li>

@@ -4,7 +4,7 @@ function Projects() {
     return (
         <div className="projects-container">
             <div className="projects-header">
-                <h1 className="text-white text-3xl m-10">Projects</h1>
+                <h1 className="text-white text-3xl m-20 header">Projects</h1>
             </div>
             <div className="projects-content grid grid-cols-2 row-auto m-20 p-10">
                 <div className="col-span-1 m-20 projects-content-section">
