@@ -7,13 +7,15 @@ function Navbar() {
     const showDropdown = () => {
         const dropdown = document.querySelector('.dropdown-menu')
         dropdown?.classList.toggle('hidden')
-        //need to add a function to close the dropdown when you click outside of it
-
+        //keepshowing the svg
     }
+    
     const hideDropdown = () => {
         const dropdown = document.querySelector('.dropdown-menu')
         dropdown?.classList.add('hidden')
+        //make this clickable over the whole screen
     }
+
 
     
     
@@ -23,9 +25,9 @@ function Navbar() {
             <Link to="/" className="pl-8">
                 Thomas Crowe
             </Link>
-            <div className="px-4 cursor-pointer md:hidden dropdown relative">
+            <div className="px-4 cursor-pointer md:hidden relative">
           
-                <svg className="w-6 h-6 dropdown" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" onClick={showDropdown}>
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" onClick={showDropdown}>
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             
