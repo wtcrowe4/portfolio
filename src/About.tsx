@@ -69,6 +69,7 @@ function About() {
                     <h2 className="text-white text-2xl">Secondary Technology</h2>
                     <p className="text-white">Other tech stacks I have experimented with:
                         <ul>
+                            <li>Jupyter Notebook</li>
                             <li>C#</li>
                             <li>.NET</li>
                             <li>Angular</li>
