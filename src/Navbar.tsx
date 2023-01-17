@@ -7,10 +7,12 @@ function Navbar() {
     const showDropdown = () => {
         const dropdown = document.querySelector('.dropdown-menu')
         dropdown?.classList.toggle('hidden')
-        
+        //need to add a function to close the dropdown when you click outside of it
 
-
-        
+    }
+    const hideDropdown = () => {
+        const dropdown = document.querySelector('.dropdown-menu')
+        dropdown?.classList.add('hidden')
     }
 
     
@@ -27,28 +29,28 @@ function Navbar() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             
-                <ul className="dropdown-menu min-w-max hidden bg-black z-50 float-right py-2 list-none text-right mt-40 m-5  " aria-labelledby="dropdownNavigation">
-                    <li className="dropdown-item">
+                <ul className="dropdown-menu min-w-max hidden bg-black z-50 float-right py-2 list-none text-right mt-40 m-5 p-5" onClick={hideDropdown} aria-labelledby="dropdownNavigation">
+                    <li className="dropdown-item m-3">
                         <Link to="/about" className="p-4">
                             About
                         </Link>
                     </li>
-                    <li className="dropdown-item">
+                    <li className="dropdown-item m-3">
                         <Link to="/projects" className="p-4">
                             Projects
                         </Link>
                     </li>
-                    <li className="dropdown-item">
+                    <li className="dropdown-item m-3">
                         <Link to="/resume" className="p-4">
                             Resume
                         </Link>
                     </li>
-                    <li className="dropdown-item">
+                    <li className="dropdown-item m-3">
                         <Link to="/testimonials" className="p-4">
                             Testimonials
                         </Link>
                     </li>
-                    <li className="dropdown-item">
+                    <li className="dropdown-item m-3">
                         <Link to="/contact" className="p-4">
                             Contact
                         </Link>
