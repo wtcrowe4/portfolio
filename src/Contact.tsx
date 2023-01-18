@@ -6,7 +6,7 @@ function Contact() {
         <div className="contact-container">
             <h1 className="text-white text-3xl m-20 header">Contact</h1>
             <div className="contact-content grid grid-cols-2 row-auto m-20 p-10">
-                <div className="col-span-1 m-20 contact-content-section">
+                <div className="col-span-1 contact-content-section">
                    <ul>
                         <li>
                             <h2 className="text-white text-2xl">Email: <a href="*">wcrowe@g.clemson.edu</a></h2>
@@ -19,7 +19,7 @@ function Contact() {
                         </li>
                     </ul>
                 </div>
-                <div className="col-span-1 m-20 contact-content-section">
+                <div className="col-span-1 contact-content-section">
                     <img className="headshot-image" src={headshot} alt="headshot"></img>
                 </div>
             </div>

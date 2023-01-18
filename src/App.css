@@ -80,6 +80,7 @@ nav {
 }
 
 .headshot-image{
+  
   border: 2px solid rgb(139, 139, 139);
   box-shadow: 2px 2px 2px 2px black;
 }
@@ -108,4 +109,35 @@ nav {
   font-size: 1.5rem;
   list-style: none;
   margin: 0 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    height: 30vh;
+  }
+  .hero-text h1 {
+    font-size: 4rem;
+  }
+  .hero-text h2 {
+    font-size: 1.5rem;
+  }
+  .about-content-section {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .projects-content-section {
+    
+    margin: 0;
+    padding: 0;
+  }
+  .resume-image {
+    width: 90vw;
+  }
+  .headshot-image {
+    width: 100%;
+  }
+  .contact-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

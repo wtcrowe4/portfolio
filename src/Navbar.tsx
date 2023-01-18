@@ -31,7 +31,7 @@ function Navbar() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             
-                <ul className="dropdown-menu min-w-max hidden bg-black z-50 float-right py-2 list-none text-right mt-40 m-5 p-5" onClick={hideDropdown} aria-labelledby="dropdownNavigation">
+                <ul className="dropdown-menu min-w-max hidden bg-black z-50 float-right py-2 list-none text-right mt-40 m-5 p-5 border-2" onClick={hideDropdown} aria-labelledby="dropdownNavigation">
                     <li className="dropdown-item m-3">
                         <Link to="/about" className="p-4">
                             About
