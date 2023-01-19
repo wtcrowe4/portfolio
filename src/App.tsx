@@ -9,7 +9,7 @@ import Footer from './Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Resume from './Resume';
 import Testimonials from './Testimonials';
-
+import { Circles } from 'react-loader-spinner';
 
 
 function App() {
@@ -27,8 +27,10 @@ function App() {
 
         </Routes>
       </Router>
-
-    <Footer />  
+      <div className="loading-spinner flex justify-center items-center">
+        <Circles height='150' width='150' color='black'ariaLabel="circles-loading" />
+      </div>
+      <Footer />  
     </div>
   );
 }
