@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo  from './assets/images/tc.jpg';
 
 function Navbar(): React.ReactElement {
     
@@ -23,7 +24,7 @@ function Navbar(): React.ReactElement {
         
         <nav className="flex justify-between items-center h-16 bg-transparent text-white text-xl" role="navigation">
             <Link to="/" className="pl-8">
-                Thomas Crowe
+                <img className="w-20 h-20 rounded-full border border-white shadow-gray-700 shadow-lg mt-7" src={logo} alt="logo"></img>
             </Link>
             <div className="px-4 cursor-pointer md:hidden relative">
           
