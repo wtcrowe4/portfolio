@@ -1,6 +1,6 @@
 import React from "react";
 
-function Testimonials() {
+function Testimonials(): React.ReactElement {
     return (
         <div className="testimonials-container">
             <div className="testimonials-text">

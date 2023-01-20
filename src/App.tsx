@@ -15,21 +15,29 @@ import { Circles } from 'react-loader-spinner';
 
 
 
-function App() {
+function App(): React.ReactElement {
   
   //logic for loading spinner
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
-    setTimeout(() => {
+    
       setLoading(false);
-    }, 2000);
+   
 
     
   }, [])
   
   
   return (
+    <>  
+    {loading ? (
+        
+        <div className="loading-spinner flex justify-center align-middle items-center">
+          <Circles height='150' width='150' color='black'ariaLabel="circles-loading" />
+        </div>
+      
+      ) : (
     <div className="App">
       <Router>
         <Navbar />
@@ -45,16 +53,13 @@ function App() {
       </Router>
       
       
-      {loading ? (
+      
         
-      <div className="loading-spinner flex justify-center items-center">
-        <Circles height='150' width='150' color='black'ariaLabel="circles-loading" />
-      </div>
-      ) : (
-        null)}
       
       <Footer />  
     </div>
+    )}
+    </>
   );
 }
 

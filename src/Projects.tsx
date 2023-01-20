@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Projects() {
+function Projects(): React.ReactElement {
     return (
         <div className="projects-container">
             <div className="projects-header">

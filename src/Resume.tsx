@@ -1,7 +1,7 @@
 import React from "react";
 import resume from "./assets/images/TechResume.jpg";
 
-function Resume() {
+function Resume(): React.ReactElement {
     return (
         <div className="resume-container flex-col justify-center m-20">
             <h1 className="text-white text-3xl m-10 header">Resume</h1>

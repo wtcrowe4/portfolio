@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-function About() {
+function About(): React.ReactElement {
     return (
         <div className="about-container">
             <div className="about-header header">
@@ -11,7 +11,7 @@ function About() {
             <div className="about-content grid grid-cols-2 row-auto m-50 p-10">
                 <div className="col-span-1 m-20 about-content-section">
                     <h2 className="text-white text-2xl about-sub-headers">Personal Life</h2>
-                    <p className="text-white">I am a 32 year old full stack web developer from Greenville, SC. I am recently married and enjoy playing golf and chess in my free time.</p>
+                    <p className="text-white">I am a 32 year old full stack web developer from Greenville, SC. I am recently married and enjoy playing golf and chess in my free time.  I like watching all types of sports.</p>
                 </div>
                 <div className="col-span-1 m-20 about-content-section">
                     <img src="#" alt="personal"></img>
@@ -25,15 +25,15 @@ function About() {
                 </div>
                 <div className="col-span-1 m-20 about-content-section">
                     <h2 className="text-white text-2xl about-sub-headers">Skills</h2>
-                    <p className="text-white">
-                        <ul>
+                    
+                        <ul className="text-white">
                             <li>Motivated</li>
                             <li>Driven</li>
                             <li>Quick Learner</li>
                             <li>Team Player</li>
                             <li>Problem Solver</li>
                         </ul>
-                    </p>
+                    
                 </div>
                 <div className="col-span-1 m-20 about-content-section">
                     <img src="#" alt="skills"></img>
@@ -47,14 +47,13 @@ function About() {
                 </div>
                 <div className="col-span-1 m-20 about-content-section">
                     <h2 className="text-white text-2xl about-sub-headers">Main Technology</h2>
-                    <p className="text-white">
-                        My main tech stack is:
-                        <ul>
+                    <h3 className="text-white">My main tech stack is: </h3>
+                        <ul className="text-white">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>SCSS</li>
-                            <li>JavaScript</li>
-                            <li>TypeScript</li>
+                            <li>JavaScrih3t</li>
+                            <li>Tyh3eScript</li>
                             <li>Python</li>
                             <li>Django</li>
                             <li>React</li>
@@ -67,13 +66,13 @@ function About() {
                             <li>Git</li>
                             <li>GitHub</li>
                         </ul>
-                    </p>
+                    
                 </div>
                 <div className="col-span-1 m-20 about-content-section">
                     <h2 className="text-white text-2xl about-sub-headers">Secondary Technology</h2>
-                    <p className="text-white">Other tech stacks I have experimented with:
-                        <ul>
-                            <li>Jupyter Notebook</li>
+                    <h3 className="text-white">Other tech stacks I have experimented with: </h3>
+                        <ul className="text-white">
+                            <li>Jupyter Notebooks</li>
                             <li>C#</li>
                             <li>.NET</li>
                             <li>Angular</li>
@@ -89,7 +88,7 @@ function About() {
                             <li>Apache</li>
 
                         </ul>
-                    </p>
+                    
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import headshot from './assets/images/headshot.jpg'
 
-function Contact() {
+function Contact(): React.ReactElement {
     return (
         <div className="contact-container">
             <h1 className="text-white text-3xl m-20 header">Contact</h1>

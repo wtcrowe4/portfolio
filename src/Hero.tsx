@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Hero() {
+function Hero(): React.ReactElement {
     return (
 
         <div className="hero-container">
