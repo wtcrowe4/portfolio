@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Hero from './Hero';
@@ -12,7 +12,23 @@ import Testimonials from './Testimonials';
 import { Circles } from 'react-loader-spinner';
 
 
+
+
+
 function App() {
+  
+  //logic for loading spinner
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    
+  }, [])
+  
+  
   return (
     <div className="App">
       <Router>
@@ -27,9 +43,16 @@ function App() {
 
         </Routes>
       </Router>
+      
+      
+      {loading ? (
+        
       <div className="loading-spinner flex justify-center items-center">
         <Circles height='150' width='150' color='black'ariaLabel="circles-loading" />
       </div>
+      ) : (
+        null)}
+      
       <Footer />  
     </div>
   );

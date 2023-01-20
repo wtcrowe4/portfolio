@@ -21,7 +21,7 @@ function Navbar() {
     
     return (
         
-        <nav className="flex justify-between items-center h-16 bg-black text-white " role="navigation">
+        <nav className="flex justify-between items-center h-16 bg-transparent text-white text-xl" role="navigation">
             <Link to="/" className="pl-8">
                 Thomas Crowe
             </Link>
