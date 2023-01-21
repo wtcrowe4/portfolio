@@ -8,14 +8,47 @@
   background-color: rgb(56, 56, 56);
   background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22));
   min-height: 100vh;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  display: flex;
 
+   
+
+}
+
+.navbar-container {
+  /* border-bottom: 2px solid rgb(139, 139, 139); rgb(56, 56, 56); */
+  position: fixed;
+  top: 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 nav {
-  /* border-bottom: 2px solid rgb(139, 139, 139); rgb(56, 56, 56); */
-  
+  width: 100%;
+ 
 }
+
+.links {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 70%;
+  align-self: flex-end;
+}
+
+.links Link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
 
 .header {
   font-size: 3rem;
@@ -33,7 +66,9 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 20vh;
+  align-self: center;
+  justify-self: center;
+  width: 100vw;
   
 }
 
@@ -119,6 +154,12 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  nav Link img {
+    width: 40px
+  }
+  .links {
+    display: none;
+  }
   .hero-container {
     height: 30vh;
   }
