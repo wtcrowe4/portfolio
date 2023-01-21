@@ -116,6 +116,11 @@ nav {
   box-shadow: 2px 2px 2px 2px black;
 }
 
+.resume-container {
+  align-self: center;
+  
+}
+
 .resume-image {
   border: 2px solid rgb(139, 139, 139);
   box-shadow: 2px 2px 2px 2px black;

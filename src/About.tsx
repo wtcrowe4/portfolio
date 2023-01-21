@@ -4,8 +4,8 @@ import React from 'react';
 
 function About(): React.ReactElement {
     return (
-        <div className="about-container">
-            <div className="about-header header">
+        <div className="about-container mt-10">
+            <div className="about-header header ">
                 <h1 className="text-white text-3xl m-20 header">About Me</h1>
             </div>
             <div className="about-content grid grid-cols-2 row-auto m-50 p-10">

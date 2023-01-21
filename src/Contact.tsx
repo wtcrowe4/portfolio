@@ -3,7 +3,7 @@ import headshot from './assets/images/headshot.jpg'
 
 function Contact(): React.ReactElement {
     return (
-        <div className="contact-container">
+        <div className="contact-container mt-10">
             <h1 className="text-white text-3xl m-20 header">Contact</h1>
             <div className="contact-content grid grid-cols-2 row-auto m-20 p-10">
                 <div className="col-span-1 contact-content-section">

@@ -2,7 +2,7 @@ import React from 'react';
 
 function Projects(): React.ReactElement {
     return (
-        <div className="projects-container">
+        <div className="projects-container w-100 m-auto mt-10">
             <div className="projects-header">
                 <h1 className="text-white text-3xl m-20 header">Projects</h1>
             </div>
