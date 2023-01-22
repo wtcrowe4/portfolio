@@ -6,7 +6,7 @@
 .App {
   text-align: center;
   /* background-color: rgb(56, 56, 56); */
-  background: url(./assets/images/background.png) repeat center center;
+  background: url(./assets/images/background.png) repeat;
   /* background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22)); */
   min-height: 100vh;
   padding-top: 20px;
@@ -57,17 +57,22 @@ nav img {
   
 }
 
-.links Link {
- 
-
-
+.links a:hover {
+  color: skyblue;
+  text-shadow: white 1px 1px 1px;
 }
+
 
 .dropdown-item a {
   color: white;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
   text-shadow: skyblue 1px 1px 1px;
+}
+
+.dropdown-item a:hover {
+  color: skyblue;
+  text-shadow: white 1px 1px 1px;
 }
 
 .dropdown-menu {
@@ -193,6 +198,11 @@ nav img {
   list-style: none;
   margin: 0 1rem;
   text-shadow: 1px 1px 1px skyblue;
+}
+
+.footer-container ul li:hover {
+  color: skyblue;
+  text-shadow: 1px 1px 1px white;
 }
 
 @media screen and (max-width: 768px) {
