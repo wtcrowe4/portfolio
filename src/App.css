@@ -5,8 +5,9 @@
 
 .App {
   text-align: center;
-  background-color: rgb(56, 56, 56);
-  background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22));
+  /* background-color: rgb(56, 56, 56); */
+  background: url(./assets/images/background.png) repeat center center;
+  /* background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22)); */
   min-height: 100vh;
   padding-top: 20px;
   display: flex;
@@ -19,17 +20,23 @@
   /* border-bottom: 2px solid rgb(139, 139, 139); rgb(56, 56, 56); */
   position: fixed;
   top: 0;
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* background: transparent; */
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  z-index: 5;
 }
 
 nav {
   width: 100%;
  
+}
+
+nav img {
+  box-shadow: 1px 1px 1px 1px skyblue;
 }
 
 .links {
@@ -40,24 +47,46 @@ nav {
   align-self: flex-end;
 }
 
-.links Link {
-  margin: 0 10px;
+.links a {
   text-decoration: none;
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
+  text-shadow: skyblue 1px 1px 1px;
+  
 }
 
+.links Link {
+ 
+
+
+}
+
+.dropdown-item a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  text-shadow: skyblue 1px 1px 1px;
+}
+
+.dropdown-menu {
+  margin-top: 180px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
 
 .header {
-  font-size: 3rem;
-  text-shadow: 2px 2px 2px black;
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: Miss Saint Delafield;
+  text-shadow: 1px 1px 1px skyblue;
+  margin-top: 100px;
 }
 
 
 .hero-container {
-  background: url(./assets/images/golf.png) no-repeat center center;
+  background: url(./assets/images/golf.png) repeat center center;
   background-size: cover;
   border: 2px solid black;
   box-shadow: 2px 2px 2px 2px black;
@@ -76,7 +105,7 @@ nav {
 
 .hero-text h1 {
   font-family: Miss Saint Delafield;
-  font-size: 6rem;
+  font-size: 8rem;
   text-shadow: 2px 2px 2px black;
   
 }
@@ -95,7 +124,8 @@ nav {
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding: 20px;
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 2px 2px 2px 2px skyblue;
+  backdrop-filter: blur(10px);
 }
 
 .about-sub-headers {
@@ -122,18 +152,24 @@ nav {
 }
 
 .resume-image {
-  border: 2px solid rgb(139, 139, 139);
-  box-shadow: 2px 2px 2px 2px black;
+  border: 2px solid skyblue;
+  /* box-shadow: 2px 2px 2px 2px black; */
+}
+
+.contact-content-section-text {
+  backdrop-filter: blur(10px);
 }
 
 .headshot-image{
   
-  border: 2px solid rgb(139, 139, 139);
-  box-shadow: 2px 2px 2px 2px black;
+  border: 2px solid skyblue;
+  /* box-shadow: 2px 2px 2px 2px skyblue;
+ */
 }
 
 .footer-container {
-  background-color: black;
+  background-color: rgb(0, 0, 0, 0.2);
+  
   height: 5vh;
   width: 100%;
   color: white;
@@ -142,7 +178,7 @@ nav {
   align-items: center;
   position: fixed;
   bottom: 0;
-  border-top: 3px solid rgb(139, 139, 139);
+  backdrop-filter: blur(10px);
   
 }
 
@@ -153,9 +189,10 @@ nav {
 }
 
 .footer-container ul li {
-  font-size: 1.5rem;
+  font-size: 2rem;
   list-style: none;
   margin: 0 1rem;
+  text-shadow: 1px 1px 1px skyblue;
 }
 
 @media screen and (max-width: 768px) {
@@ -192,5 +229,8 @@ nav {
   .contact-content {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .footer-container ul li {
+    font-size: 1.4rem;
   }
 }

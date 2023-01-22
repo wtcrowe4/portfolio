@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Footer() {
-    //create a footer with social icons
     return (
         <div className="footer-container p-6">
             <ul>

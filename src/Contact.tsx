@@ -6,16 +6,16 @@ function Contact(): React.ReactElement {
         <div className="contact-container mt-10">
             <h1 className="text-white text-3xl m-20 header">Contact</h1>
             <div className="contact-content grid grid-cols-2 row-auto m-20 p-10">
-                <div className="col-span-1 contact-content-section">
+                <div className="col-span-1 contact-content-section-text">
                    <ul>
                         <li>
-                            <h2 className="text-white text-2xl">Email: <a href="*">wcrowe@g.clemson.edu</a></h2>
+                            <h2 className="text-white text-3xl">Email: <a href="*">wcrowe@g.clemson.edu</a></h2>
                         </li>
                         <li>
-                            <h2 className="text-white text-2xl">Phone: (864) 630-3512</h2>
+                            <h2 className="text-white text-3xl">Phone: (864) 630-3512</h2>
                         </li>
                         <li>
-                            <h2 className="text-white text-2xl">LinkedIn: <a href="https://www.linkedin.com/in/wthomascrowe">wthomascrowe</a></h2>
+                            <h2 className="text-white text-3xl">LinkedIn: <a href="https://www.linkedin.com/in/wthomascrowe">wthomascrowe</a></h2>
                         </li>
                     </ul>
                 </div>

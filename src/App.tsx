@@ -33,7 +33,7 @@ function App(): React.ReactElement {
     <>  
     {loading ? (
         
-        <div className="loading-spinner flex justify-center align-middle items-center">
+        <div className="loading-spinner flex justify-center align-center items-center m-auto">
           <Circles height='150' width='150' color='black'ariaLabel="circles-loading" />
         </div>
       

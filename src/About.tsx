@@ -52,8 +52,8 @@ function About(): React.ReactElement {
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>SCSS</li>
-                            <li>JavaScrih3t</li>
-                            <li>Tyh3eScript</li>
+                            <li>JavaScript</li>
+                            <li>TypeScript</li>
                             <li>Python</li>
                             <li>Django</li>
                             <li>React</li>
