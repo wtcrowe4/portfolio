@@ -1,4 +1,4 @@
-![Screenshot](./src/assets/images/portfolio_screenshot.png)
+![Screenshot](./src/assets/screenshots/portfolio_screenshot.png)
 
 # Getting Started with Create React App
 

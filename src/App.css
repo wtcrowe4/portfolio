@@ -148,7 +148,13 @@ nav img {
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding: 20px;
-  box-shadow: 2px 2px 2px 2px black;
+  box-shadow: 1px 1px skyblue;
+  backdrop-filter: blur(10px);
+}
+
+.projects-picture-section {
+  padding: 0;
+  border: 1px solid skyblue;
 }
 
 .resume-container {
