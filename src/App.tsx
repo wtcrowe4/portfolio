@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
-import Footer from './Footer';
+import './styles/App.css';
+import Navbar from './Components/Navbar';
+import Hero from './Components/Hero';
+import About from './Pages/About';
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
+import Footer from './Components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Resume from './Resume';
-import Testimonials from './Testimonials';
+import Resume from './Pages/Resume';
+import Testimonials from './Pages/Testimonials';
 import { Circles } from 'react-loader-spinner';
 
 

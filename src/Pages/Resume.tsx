@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "./assets/images/TechResume.jpg";
+import resume from "../assets/images/TechResume.jpg";
 
 function Resume(): React.ReactElement {
     return (

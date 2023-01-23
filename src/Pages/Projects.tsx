@@ -1,5 +1,5 @@
 import React from 'react';
-import holdem from './assets/screenshots/holdem_screenshot.png'
+import holdem from '../assets/screenshots/holdem_screenshot.png'
 
 function Projects(): React.ReactElement {
     return (

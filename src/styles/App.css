@@ -6,7 +6,7 @@
 .App {
   text-align: center;
   /* background-color: rgb(56, 56, 56); */
-  background: url(./assets/images/background.png) repeat;
+  background: url(../assets/images/background.png) repeat;
   /* background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22)); */
   min-height: 100vh;
   padding-top: 20px;
@@ -91,7 +91,7 @@ nav img {
 
 
 .hero-container {
-  background: url(./assets/images/golf.png) repeat center center;
+  background: url(../assets/images/golf.png) repeat center center;
   background-size: cover;
   border: 2px solid black;
   box-shadow: 2px 2px 2px 2px black;

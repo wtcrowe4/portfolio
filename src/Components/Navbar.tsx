@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo  from './assets/images/tc.jpg';
+import logo  from '../assets/images/tc.jpg';
 
 function Navbar(): React.ReactElement {
     
