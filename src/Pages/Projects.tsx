@@ -1,5 +1,6 @@
 import React from 'react';
 import holdem from '../assets/screenshots/holdem_screenshot.png'
+import reactSports from '../assets/screenshots/sports_screenshot.png'
 
 function Projects(): React.ReactElement {
     return (
@@ -20,7 +21,7 @@ function Projects(): React.ReactElement {
                     <p className="text-white">This is a project I worked on.</p>
                 </div>
                 <div className="col-span-1 m-20 projects-content-section">
-                    <img src="#" alt="project2 screenshot"></img>
+                    <img src={reactSports} alt="project2 screenshot"></img>
                 </div>
                 <div className="col-span-1 m-20 projects-content-section">
                     <h2 className="text-white text-2xl">Project 3</h2>

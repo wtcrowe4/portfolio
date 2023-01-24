@@ -1,6 +1,4 @@
-//create an about page
 import React from 'react';
-
 
 function About(): React.ReactElement {
     return (
