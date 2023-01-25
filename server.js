@@ -13,8 +13,7 @@ moongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
 
 
 app.get('/', (req, res) => {
-    
-    res.send('Hello World!');
+    res.send('Backend Root Route');
     });
 
 
