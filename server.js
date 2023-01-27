@@ -1,16 +1,13 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import moongoose from 'mongoose';
-
-dotenv.config();
-
+const express = require('express') 
+const dotenv = require('dotenv').config() 
+const mongoose = require('mongoose')
 const app = express();
 
 //database connection
-const db = process.env.MONGO_URI + process.env.MONGO_DBNAME;
-moongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => console.log('MongoDB Connected...'))
-
+const db = process.env.MONGO_URI 
+mongoose.set('strictQuery', true)
+mongoose.connect(db, () => {console.log('MongoDB Connected...')})
+    
 
 app.get('/', (req, res) => {
     res.send('Backend Root Route');
