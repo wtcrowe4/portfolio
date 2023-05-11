@@ -24,7 +24,7 @@ function Navbar(): React.ReactElement {
         <div className="navbar-container w-100">
             <nav className="flex justify-between items-center h-16 bg-transparent text-white text-xl" role="navigation">
                 <Link to="/" className="pl-8">
-                    <img className="w-20 h-20 rounded-full border border-white mt-8" src={logo} alt="logo"></img>
+                    <img id='main-logo' className="w-25 h-25 rounded-full border border-white mt-11" src={logo} alt="logo"></img>
                 </Link>
                 <div className="px-4 cursor-pointer md:hidden relative dropdown-container">
             
