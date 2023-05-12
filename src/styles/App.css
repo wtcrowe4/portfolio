@@ -11,9 +11,7 @@
   min-height: 100vh;
   padding-top: 20px;
   display: flex;
-
-   
-
+  
 }
 
 .navbar-container {
@@ -146,6 +144,13 @@ nav img {
   
 }
 
+#about-header {
+  font-size: 12rem;
+  text-shadow: 2px 2px 2px skyblue;
+  /* text-decoration: underline; */
+  padding-bottom: 10px;
+}
+
 .about-content-section {
   display: flex;
   justify-content: center;
@@ -162,6 +167,13 @@ nav img {
   font-size: 2rem;
   text-shadow: 2px 2px 2px black;
   text-decoration: underline;
+  padding-bottom: 10px;
+}
+
+#projects-header {
+  font-size: 12rem;
+  text-shadow: 2px 2px 2px skyblue;
+  /* text-decoration: underline; */
   padding-bottom: 10px;
 }
 
