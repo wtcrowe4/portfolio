@@ -4,7 +4,7 @@ function About(): React.ReactElement {
     return (
         <div className="about-container mt-10">
             <div className="about-header header ">
-                <h1 id='about-header' className="text-white font-extrabold text-8xl m-20 header">About Me</h1>
+                <h1 className="text-white m-20 header">About Me</h1>
             </div>
             <div className="about-content grid grid-cols-2 row-auto m-50 p-10">
                 <div className="col-span-1 m-20 about-content-section">

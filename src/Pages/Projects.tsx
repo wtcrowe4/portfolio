@@ -6,7 +6,7 @@ function Projects(): React.ReactElement {
     return (
         <div className="projects-container w-100 m-auto mt-10">
             <div className="projects-header">
-                <h1 id='projects-header' className="text-white font-extrabold m-20 header">Projects</h1>
+                <h1 className="text-white m-20 header">Projects</h1>
             </div>
             <div className="projects-content grid grid-cols-2 row-auto m-20 p-10">
                 <div className="col-span-1 m-20 projects-content-section">

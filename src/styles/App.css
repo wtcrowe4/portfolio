@@ -7,12 +7,12 @@
   text-align: center;
   /* background-color: rgb(56, 56, 56); */
   background: url(../assets/images/background.png) repeat;
+  background-position: center;
   /* background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22)); */
   min-height: 100vh;
   padding-top: 20px;
   display: flex;
-  
-}
+  }
 
 .navbar-container {
   /* border-bottom: 2px solid rgb(139, 139, 139); rgb(56, 56, 56); */
@@ -26,6 +26,7 @@
   align-items: center;
   width: 100%;
   z-index: 5;
+  padding: 12px;
 }
 
 #main-logo {
@@ -52,7 +53,7 @@ nav img {
 .links a {
   text-decoration: none;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
   text-shadow: skyblue 1px 1px 1px;
@@ -84,10 +85,10 @@ nav img {
 }
 
 .header {
-  font-size: 6rem;
-  font-weight: 600;
+  font-size: 12rem;
+  font-weight: 800;
   font-family: Miss Saint Delafield;
-  text-shadow: 1px 1px 1px skyblue;
+  text-shadow: 2px 2px 2px skyblue;
   margin-top: 100px;
 }
 
@@ -144,12 +145,7 @@ nav img {
   
 }
 
-#about-header {
-  font-size: 12rem;
-  text-shadow: 2px 2px 2px skyblue;
-  /* text-decoration: underline; */
-  padding-bottom: 10px;
-}
+
 
 .about-content-section {
   display: flex;
@@ -170,12 +166,6 @@ nav img {
   padding-bottom: 10px;
 }
 
-#projects-header {
-  font-size: 12rem;
-  text-shadow: 2px 2px 2px skyblue;
-  /* text-decoration: underline; */
-  padding-bottom: 10px;
-}
 
 .projects-content-section {
   display: flex;
@@ -248,7 +238,7 @@ nav img {
   text-shadow: 1px 1px 1px white;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   nav Link img {
     width: 40px
   }

@@ -26,9 +26,9 @@ function Navbar(): React.ReactElement {
                 <Link to="/" className="pl-8">
                     <img id='main-logo' className="w-25 h-25 rounded-full border border-white mt-11" src={logo} alt="logo"></img>
                 </Link>
-                <div className="px-4 cursor-pointer md:hidden relative dropdown-container">
+                <div className="px-4 cursor-pointer lg:hidden relative dropdown-container">
             
-                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" onClick={showDropdown}>
+                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" onClick={showDropdown}>
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 
@@ -60,7 +60,7 @@ function Navbar(): React.ReactElement {
                         </li>
                     </ul>
                 </div>
-                <div className="pr-8 md:block hidden links">
+                <div className="pr-8 lg:block hidden links">
                     <Link to="/about" className="p-4">
                         About
                     </Link>
