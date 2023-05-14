@@ -7,15 +7,18 @@ function Contact(): React.ReactElement {
             <h1 className="text-white m-20 mt-10 header">Contact</h1>
             <div className="contact-content grid grid-cols-2 row-auto m-20 p-10">
                 <div className="col-span-1 contact-content-section-text">
-                   <ul>
-                        <li>
-                            <h2 className="text-white text-3xl">Email: <a href="*">wcrowe@g.clemson.edu</a></h2>
+                   <ul id='contact-list'>
+                        <li className='contact-list-item'>
+                            <h2 className="text-white text-4xl underline pb-3">Email: </h2>
+                            <a className='text-white text-4xl contact-link' href="*">wcrowe@g.clemson.edu</a>
                         </li>
-                        <li>
-                            <h2 className="text-white text-3xl">Phone: (864) 630-3512</h2>
+                        <li className='contact-list-item'>
+                            <h2 className="text-white text-4xl underline pb-3">Phone: </h2>
+                            <h2 className="text-white text-4xl">(864) 630-3512</h2>
                         </li>
-                        <li>
-                            <h2 className="text-white text-3xl">LinkedIn: <a href="https://www.linkedin.com/in/wthomascrowe">wthomascrowe</a></h2>
+                        <li className='contact-list-item'>
+                            <h2 className="text-white text-4xl underline pb-3">LinkedIn: </h2>
+                            <a className='text-white text-4xl contact-link' href="https://www.linkedin.com/in/wthomascrowe">wthomascrowe</a>
                         </li>
                     </ul>
                 </div>

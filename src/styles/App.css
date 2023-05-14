@@ -67,6 +67,8 @@ nav img {
 }
 
 
+
+
 .dropdown-item a {
   color: white;
   text-decoration: none;
@@ -197,7 +199,34 @@ nav img {
 
 .contact-content-section-text {
   backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-grow: 1;
+  flex-shrink: 3;
+  border: 2px solid skyblue;
 }
+
+.contact-link {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 0;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  text-shadow: skyblue 1px 1px 1px;
+}
+
+.contact-link:hover {
+  color: skyblue;
+  text-shadow: white 1px 1px 1px;
+}
+
+.contact-list-item {
+  padding: 3rem;
+  flex-shrink: 3;
+}
+
+
 
 .headshot-image{
   
@@ -279,6 +308,10 @@ nav img {
   .contact-content {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .contact-list-item {
+    padding: 1rem;
+    font-size: smaller;
   }
   .footer-container ul li {
     font-size: 1.4rem;
