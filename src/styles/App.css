@@ -31,6 +31,7 @@
 
 #main-logo {
   margin-top: 13rem;
+  margin-left: -1rem;
 }
 
 nav {
@@ -99,7 +100,7 @@ nav img {
   background-size: cover;
   border: 2px solid black;
   box-shadow: 2px 2px 2px 2px black;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,6 +240,12 @@ nav img {
 }
 
 @media screen and (max-width: 1024px) {
+  #main-logo {
+    width: 10rem;
+    height: 10rem;
+    margin-top: 7rem;
+    margin-left: -1rem;  
+  }
   nav Link img {
     width: 40px
   }
@@ -246,7 +253,7 @@ nav img {
     display: none;
   }
   .hero-container {
-    height: 30vh;
+    height: 50vh;
   }
   .hero-text h1 {
     font-size: 4rem;

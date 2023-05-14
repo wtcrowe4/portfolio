@@ -28,7 +28,7 @@ function Navbar(): React.ReactElement {
                 </Link>
                 <div className="px-4 cursor-pointer lg:hidden relative dropdown-container">
             
-                    <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" onClick={showDropdown}>
+                    <svg className="w-18 h-14" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" onClick={showDropdown}>
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 
