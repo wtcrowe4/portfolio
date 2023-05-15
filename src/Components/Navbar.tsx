@@ -48,11 +48,11 @@ function Navbar(): React.ReactElement {
                                 Resume
                             </Link>
                         </li>
-                        <li className="dropdown-item m-3">
+                        {/* <li className="dropdown-item m-3">
                             <Link to="/testimonials" className="p-4">
                                 Testimonials
                             </Link>
-                        </li>
+                        </li> */}
                         <li className="dropdown-item m-3">
                             <Link to="/contact" className="p-4">
                                 Contact
@@ -70,9 +70,9 @@ function Navbar(): React.ReactElement {
                     <Link to="/resume" className="p-4">
                         Resume
                     </Link>
-                    <Link to="/testimonials" className="p-4">
+                    {/* <Link to="/testimonials" className="p-4">
                         Testimonials
-                    </Link>
+                    </Link> */}
                     <Link to="/contact" className="p-4">
                         Contact
                     </Link>
