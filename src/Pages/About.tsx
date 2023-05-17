@@ -1,4 +1,5 @@
 import React from 'react';
+import weddingPhoto from '../assets/images/wedding.jpg'
 
 function About(): React.ReactElement {
     return (
@@ -8,23 +9,23 @@ function About(): React.ReactElement {
             </div>
             <div className="about-content grid grid-cols-2 row-auto m-50 p-10">
                 <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-2xl about-sub-headers">Personal Life</h2>
-                    <p className="text-white">I am a 32 year old full stack web developer from Greenville, SC. I am recently married and enjoy playing golf and chess in my free time.  I like watching all types of sports.</p>
+                    <h2 className="text-white text-4xl about-sub-headers">Personal Life</h2>
+                    <p className="text-white text-4xl">I am a 32 year old full stack web developer from Greenville, SC. I am recently married and we have a baby on the way.  I enjoy playing golf, chess, and fishing in my free time.  I like watching any type of sport and using stats to dive deeper into them.</p>
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
-                    <img src="#" alt="personal"></img>
+                <div className="col-span-1 m-20 p-0 about-photo">
+                    <img className="p-0 m-0" src={weddingPhoto} alt="personal"></img>
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
+                <div className="col-span-1 m-20 about-photo">
                     <img src="#" alt="professional"></img>
                 </div>  
                 <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-2xl about-sub-headers">Professional Life</h2>
-                    <p className="text-white">I have over 10 years experience in the service industry, most of them in a management or leadership role.  I am a motivated and driven individual ready to start writing code professionally.</p>
+                    <h2 className="text-white text-4xl about-sub-headers">Professional Life</h2>
+                    <p className="text-white">I have over 10 years experience in the service industry, most of them in a management or leadership role.  I am a motivated and driven individual ready to start my career in tech.</p>
                 </div>
                 <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-2xl about-sub-headers">Skills</h2>
+                    <h2 className="text-white text-4xl about-sub-headers">Skills</h2>
                     
-                        <ul className="text-white">
+                        <ul className="text-white text-2xl">
                             <li>Motivated</li>
                             <li>Driven</li>
                             <li>Quick Learner</li>
@@ -33,10 +34,10 @@ function About(): React.ReactElement {
                         </ul>
                     
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
+                <div className="col-span-1 m-20 about-photo">
                     <img src="#" alt="skills"></img>
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
+                <div className="col-span-1 m-20 about-photo">
                     <img src="#" alt="education"></img>
                 </div>
                 <div className="col-span-1 m-20 about-content-section">
@@ -47,11 +48,10 @@ function About(): React.ReactElement {
                     <h2 className="text-white text-2xl about-sub-headers">Main Technology</h2>
                     <h3 className="text-white">My main tech stack is: </h3>
                         <ul className="text-white">
-                            <li>HTML</li>
-                            <li>CSS</li>
+                            {/* <li>HTML</li>
+                            <li>CSS</li> */}
                             <li>SCSS</li>
                             <li>JavaScript</li>
-                            <li>TypeScript</li>
                             <li>Python</li>
                             <li>Django</li>
                             <li>React</li>
@@ -63,6 +63,10 @@ function About(): React.ReactElement {
                             <li>API</li>
                             <li>Git</li>
                             <li>GitHub</li>
+                            <li>Jupyter Notebooks</li>
+                            <li>C#</li>
+                            <li>.NET</li>
+                            <li>.NET MAUI</li>
                         </ul>
                     
                 </div>
@@ -70,9 +74,8 @@ function About(): React.ReactElement {
                     <h2 className="text-white text-2xl about-sub-headers">Secondary Technology</h2>
                     <h3 className="text-white">Other tech stacks I have experimented with: </h3>
                         <ul className="text-white">
-                            <li>Jupyter Notebooks</li>
-                            <li>C#</li>
-                            <li>.NET</li>
+                            
+                            <li>TypeScript</li>
                             <li>Angular</li>
                             <li>Vue</li>
                             <li>Svelt</li>

@@ -149,24 +149,43 @@ nav img {
 }
 
 
+.about-photo {
+  display: flex;
+  border: 2px solid skyblue;
+  box-shadow: 2px 2px 2px 2px skyblue;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  object-position: center;
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(10px);
+  padding-bottom: 28px;
+  padding-top: 28px; 
+  
+}
 
 .about-content-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  /* margin-top: 10vh;
+  margin-bottom: 10vh; */
   padding: 20px;
+  padding-left: 10rem;
+  padding-right: 10rem;
   box-shadow: 2px 2px 2px 2px skyblue;
   backdrop-filter: blur(10px);
+
 }
 
 .about-sub-headers {
-  font-size: 2rem;
+  font-size: 5rem;
   text-shadow: 2px 2px 2px black;
   text-decoration: underline;
-  padding-bottom: 10px;
+  padding-bottom: 6rem;
 }
 
 
