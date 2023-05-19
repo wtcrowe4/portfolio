@@ -2,6 +2,7 @@ import React from 'react';
 import holdem from '../assets/screenshots/holdem_screenshot.png'
 import reactSports from '../assets/screenshots/sports_screenshot.png'
 import discord from '../assets/screenshots/discord_screenshot.png'
+import music from '../assets/screenshots/musiclib_screenshot.png'
 
 function Projects(): React.ReactElement {
     return (
@@ -32,11 +33,11 @@ function Projects(): React.ReactElement {
                     <img src={discord} alt="project3 screenshot"></img>
                 </div>
                 <div className="col-span-1 m-20 projects-content-section">
-                    <h2 className="text-white text-4xl pb-5">Project 4</h2>
-                    <p className="text-white text-2xl">This is a project I worked on.</p>
+                    <h2 className="text-white text-4xl pb-5">Music Library</h2>
+                    <p className="text-white text-2xl">This is a simple React project I worked on to learn and utilize Redux, APIs, and manipulating the DOM without reloading the page.</p>
                 </div>
                 <div className="col-span-1 m-20 projects-content-section">
-                    <img src="#" alt="project4 screenshot"></img>
+                    <img src={music} alt="project4 screenshot"></img>
                 </div>    
             </div>
         </div>
