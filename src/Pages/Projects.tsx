@@ -4,6 +4,7 @@ import reactSports from '../assets/screenshots/sports_screenshot.png'
 import discord from '../assets/screenshots/discord_screenshot.png'
 import music from '../assets/screenshots/musiclib_screenshot.png'
 import monkey from '../assets/screenshots/monkeyfinder_screenshot.png'
+import finance from '../assets/screenshots/finance_screenshot.png'
 
 function Projects(): React.ReactElement {
     return (
@@ -46,6 +47,13 @@ function Projects(): React.ReactElement {
                 </div>
                 <div className="col-span-1 m-20 projects-content-section">
                     <img src={monkey} alt="project5 screenshot"></img>
+                </div>
+                <div className="col-span-1 m-20 projects-content-section">
+                    <h2 className="text-white text-4xl pb-5">MAUI Finance</h2>
+                    <p className="text-white text-2xl">This is a .NET MAUI application that uses a financial API to fetch stock information and display it to the user, with the ability to search and create a watchlist of favorites.</p>
+                </div>
+                <div className="col-span-1 m-20 projects-content-section">
+                    <img src={finance} alt="project6 screenshot"></img>
                 </div>
             </div>
         </div>
