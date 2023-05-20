@@ -3,6 +3,7 @@ import holdem from '../assets/screenshots/holdem_screenshot.png'
 import reactSports from '../assets/screenshots/sports_screenshot.png'
 import discord from '../assets/screenshots/discord_screenshot.png'
 import music from '../assets/screenshots/musiclib_screenshot.png'
+import monkey from '../assets/screenshots/monkeyfinder_screenshot.png'
 
 function Projects(): React.ReactElement {
     return (
@@ -38,7 +39,14 @@ function Projects(): React.ReactElement {
                 </div>
                 <div className="col-span-1 m-20 projects-content-section">
                     <img src={music} alt="project4 screenshot"></img>
-                </div>    
+                </div>
+                <div className="col-span-1 m-20 projects-content-section">
+                    <h2 className="text-white text-4xl pb-5">Monkey Finder</h2>
+                    <p className="text-white text-2xl">This was my first .NET MAUI application, using a simple API to fetch information about different monkeys and where they originate from.</p>
+                </div>
+                <div className="col-span-1 m-20 projects-content-section">
+                    <img src={monkey} alt="project5 screenshot"></img>
+                </div>
             </div>
         </div>
     )
