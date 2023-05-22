@@ -54,7 +54,7 @@ function Projects(): React.ReactElement {
                 </div>
                 <div className="col-span-1 m-20 projects-content-section">
                     <img src={finance} alt="project6 screenshot"></img>
-                </div>
+                </div> 
             </div>
         </div>
     )

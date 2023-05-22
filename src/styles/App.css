@@ -7,97 +7,99 @@
   text-align: center;
   /* background-color: rgb(56, 56, 56); */
   background: url(../assets/images/background.png) repeat;
-  background-position: center;
-  /* background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22)); */
-  min-height: 100vh;
-  padding-top: 20px;
-  display: flex;
+    background-position: center;
+    /* background: linear-gradient(to right, rgb(22, 22, 22), rgb(78, 78, 78), rgb(22, 22, 22)); */
+    min-height: 100vh;
+    padding-top: 20px;
+    display: flex;
+    }
+
+  .navbar-container {
+    /* border-bottom: 2px solid rgb(139, 139, 139); rgb(56, 56, 56); */
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* background: transparent; */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Add prefix for Safari and Safari on iOS */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 5;
+    padding: 12px;
   }
 
-.navbar-container {
-  /* border-bottom: 2px solid rgb(139, 139, 139); rgb(56, 56, 56); */
-  position: fixed;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  /* background: transparent; */
-  backdrop-filter: blur(10px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  z-index: 5;
-  padding: 12px;
-}
+  #main-logo {
+    margin-top: 13rem;
+    margin-left: -1rem;
+  }
 
-#main-logo {
-  margin-top: 13rem;
-  margin-left: -1rem;
-}
+  nav {
+    width: 100%;
+   
+  }
 
-nav {
-  width: 100%;
- 
-}
+  nav img {
+    box-shadow: 1px 1px 1px 1px skyblue;
+  }
 
-nav img {
-  box-shadow: 1px 1px 1px 1px skyblue;
-}
+  .links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 70%;
+    align-self: flex-end;
+  }
 
-.links {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  width: 70%;
-  align-self: flex-end;
-}
+  .links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    text-shadow: skyblue 1px 1px 1px;
+    
+  }
 
-.links a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.8rem;
-  font-weight: 600;
-  transition: all 0.3s ease-in-out;
-  text-shadow: skyblue 1px 1px 1px;
-  
-}
-
-.links a:hover {
-  color: skyblue;
-  text-shadow: white 1px 1px 1px;
-}
+  .links a:hover {
+    color: skyblue;
+    text-shadow: white 1px 1px 1px;
+  }
 
 
 
 
-.dropdown-item a {
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  text-shadow: skyblue 1px 1px 1px;
-}
+  .dropdown-item a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    text-shadow: skyblue 1px 1px 1px;
+  }
 
-.dropdown-item a:hover {
-  color: skyblue;
-  text-shadow: white 1px 1px 1px;
-}
+  .dropdown-item a:hover {
+    color: skyblue;
+    text-shadow: white 1px 1px 1px;
+  }
 
-.dropdown-menu {
-  margin-top: 180px;
-  background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(10px);
-}
+  .dropdown-menu {
+    margin-top: 180px;
+    background-color: rgba(0, 0, 0, 0.2);
+    -webkit-backdrop-filter: blur(10px); /* Add prefix for Safari and Safari on iOS */
+    backdrop-filter: blur(10px);
+  }
 
-.header {
-  font-size: 12rem;
-  font-weight: 800;
-  font-family: Miss Saint Delafield;
-  text-shadow: 2px 2px 2px skyblue;
-  margin-top: 100px;
-}
+  .header {
+    font-size: 12rem;
+    font-weight: 800;
+    font-family: Miss Saint Delafield;
+    text-shadow: 2px 2px 2px skyblue;
+    margin-top: 100px;
+  }
 
 
 
-.hero-container {
+  .hero-container {
   background: url(../assets/images/golf.png) repeat center center;
   background-size: cover;
   border: 2px solid black;
@@ -160,6 +162,7 @@ nav img {
   justify-content: center;
   object-position: center;
   transition: all 0.3s ease-in-out;
+  -webkit-backdrop-filter: blur(10px); 
   backdrop-filter: blur(10px);
   padding-bottom: 28px;
   padding-top: 28px; 
@@ -177,8 +180,8 @@ nav img {
   padding-left: 10rem;
   padding-right: 10rem;
   box-shadow: 2px 2px 2px 2px skyblue;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-
 }
 
 .about-sub-headers {
@@ -198,6 +201,7 @@ nav img {
   margin-bottom: 10vh;
   padding: 20px;
   box-shadow: 1px 1px skyblue;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
@@ -217,6 +221,7 @@ nav img {
 }
 
 .contact-content-section-text {
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
@@ -265,6 +270,7 @@ nav img {
   align-items: center;
   position: fixed;
   bottom: 0;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   
 }
