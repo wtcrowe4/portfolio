@@ -5,6 +5,7 @@ import discord from '../assets/screenshots/discord_screenshot.png'
 import music from '../assets/screenshots/musiclib_screenshot.png'
 import monkey from '../assets/screenshots/monkeyfinder_screenshot.png'
 import finance from '../assets/screenshots/finance_screenshot.png'
+import realty from '../assets/screenshots/realty_screenshot.png'
 
 function Projects(): React.ReactElement {
     return (
@@ -55,6 +56,13 @@ function Projects(): React.ReactElement {
                 <div className="col-span-1 m-20 projects-content-section">
                     <img src={finance} alt="project6 screenshot"></img>
                 </div> 
+                <div className="col-span-1 m-20 projects-content-section">
+                    <h2 className="text-white text-4xl pb-5">Crowe Realty</h2>
+                    <p className="text-white text-2xl">This is an Angular/Typescript project I'm working on that uses a real estate API to fetch information about different properties and display it to the user, with the ability to add your own properties to the site.</p>
+                </div>
+                <div className="col-span-1 m-20 projects-content-section">
+                    <img src={realty} alt="project7 screenshot"></img>
+                </div>
             </div>
         </div>
     )
