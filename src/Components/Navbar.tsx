@@ -17,8 +17,6 @@ function Navbar(): React.ReactElement {
         //make this clickable over the whole screen
     }
 
-
-    
     
     return (
         <div className="navbar-container w-100">
