@@ -8,6 +8,10 @@ import finance from '../assets/screenshots/finance_screenshot.png'
 import realty from '../assets/screenshots/realty_screenshot.png'
 
 function Projects(): React.ReactElement {
+    
+    
+    
+    
     return (
         <div className="projects-container w-100 m-auto mt-10">
             <div className="projects-header">
