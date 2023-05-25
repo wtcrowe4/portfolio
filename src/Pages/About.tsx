@@ -3,11 +3,31 @@ import weddingPhoto from '../assets/images/wedding.jpg'
 import kitchen from '../assets/images/kitchen.jpg'
 import skills from '../assets/images/skills.jpg'
 import college from '../assets/images/college.webp'
+import { tv } from 'tailwind-variants'
 
 function About(): React.ReactElement {
+    
+    const sectionStyle = tv({
+        base: 'col-span-1 m-20',
+        variants: {
+            content: 'about-content-section',
+            photo: 'about-photo'
+        }
+    })
+    
+    const textStyle = tv({
+        base: 'text-white text-4xl',
+        variants: {
+            header: 'text-5xl about-sub-headers font-semibold',
+            content: 'text-4xl',
+        }
+    })
+    
+    
+    
     return (
         <div className="about-container mt-10">
-            <div className="about-header header ">
+            <div className="about-header header">
                 <h1 className="text-white m-20 header">About Me</h1>
             </div>
             <div className="about-content grid grid-cols-2 row-auto m-50 p-10">
