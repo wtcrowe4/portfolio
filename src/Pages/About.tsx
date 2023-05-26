@@ -10,20 +10,26 @@ function About(): React.ReactElement {
     const sectionStyle = tv({
         base: 'col-span-1 m-20',
         variants: {
-            content: 'about-content-section',
-            photo: 'about-photo'
+            content: {
+                text: 'about-content-section',
+                photo: 'about-photo'
+            }
         }
     })
     
     const textStyle = tv({
         base: 'text-white text-4xl',
         variants: {
-            header: 'text-5xl about-sub-headers font-semibold',
-            content: 'text-4xl',
+            size: {
+                header: 'text-5xl about-sub-headers font-semibold',
+                content: 'text-4xl',
+            }
         }
     })
     
-    
+    //"col-span-1 m-20 about-content-section"
+    //"text-white text-4xl about-sub-headers"
+    //"text-white text-4xl"
     
     return (
         <div className="about-container mt-10">
@@ -31,28 +37,28 @@ function About(): React.ReactElement {
                 <h1 className="text-white m-20 header">About Me</h1>
             </div>
             <div className="about-content grid grid-cols-2 row-auto m-50 p-10">
-                <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-4xl about-sub-headers">Personal Life</h2>
-                    <p className="text-white text-4xl">
+                <div className={sectionStyle({content: 'text'})}>
+                    <h2 className={textStyle({size: 'header'})}>Personal Life</h2>
+                    <p className={textStyle({size: 'content'})}>
                         I am a 32 year old full stack web developer from Greenville, SC. I am recently married and we have a baby on the way.  I enjoy playing golf, chess, and fishing in my free time.  I like watching any type of sport and using stats to dive deeper into them.
                     </p>
                 </div>
-                <div className="col-span-1 m-20 p-0 about-photo">
-                    <img className="p-0 m-0" src={weddingPhoto} alt="personal"></img>
+                <div className={sectionStyle({content: 'photo'})}>
+                    <img src={weddingPhoto} alt="personal"></img>
                 </div>
-                <div className="col-span-1 m-20 about-photo">
+                <div className={sectionStyle({content: 'photo'})}>
                     <img src={kitchen} alt="professional"></img>
                 </div>  
-                <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-4xl about-sub-headers">Professional Life</h2>
-                    <p className="text-white text-4xl">
+                <div className={sectionStyle({content: 'text'})}>
+                    <h2 className={textStyle({size: 'header'})}>Professional Life</h2>
+                    <p className={textStyle({size: 'content'})}>
                         I have over 10 years experience in the service industry, most of them in a management or leadership role.  I am a motivated and driven individual ready to start my career in tech.
                     </p>
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-4xl about-sub-headers">Skills</h2>
+                <div className={sectionStyle({content: 'text'})}>
+                    <h2 className={textStyle({size: 'header'})}>Skills</h2>
                     
-                        <ul className="text-white text-4xl">
+                        <ul className={textStyle({size: 'content'})}>
                             <li>Motivated</li>
                             <li>Driven</li>
                             <li>Quick Learner</li>
@@ -61,22 +67,22 @@ function About(): React.ReactElement {
                         </ul>
                     
                 </div>
-                <div className="col-span-1 m-20 about-photo">
+                <div className={sectionStyle({content: 'photo'})}>
                     <img src={skills} alt="skills"></img>
                 </div>
-                <div className="col-span-1 m-20 about-photo">
+                <div className={sectionStyle({content: 'photo'})}>
                     <img src={college} alt="education"></img>
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-4xl about-sub-headers">Education</h2>
-                    <p className="text-white text-4xl">
+                <div className={sectionStyle({content: 'text'})}>
+                    <h2 className={textStyle({size: 'header'})}>Education</h2>
+                    <p className={textStyle({size: 'content'})}>
                         I studied Bichemistry at the Honors College at College of Charleston before realizing my passion for computers.  I transferred to Clemson University and studied Computer Engineering.  As I matured I realized my talents as a programmer and decided to go back to school at 32 and complete a Software Development Program at N.C. State University. 
                     </p>
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-4xl about-sub-headers">Main Technology</h2>
-                    <h3 className="text-white text-4xl">My main tech stack is: </h3>
-                        <ul className="text-white text-4xl">
+                <div className={sectionStyle({content: 'text'})}>
+                    <h2 className="text-white text-4xl about-sub-headers pt-10">Main Technology</h2>
+                    {/* <h3 className="text-white text-4xl">My main tech stack is: </h3> */}
+                        <ul className="text-white text-4xl pb-10">
                             {/* <li>HTML</li>
                             <li>CSS</li> */}
                             <li>SCSS</li>
@@ -99,10 +105,10 @@ function About(): React.ReactElement {
                         </ul>
                     
                 </div>
-                <div className="col-span-1 m-20 about-content-section">
-                    <h2 className="text-white text-4xl about-sub-headers">Secondary Technology</h2>
-                    <h3 className="text-white text-4xl">Other tech stacks I have experimented with: </h3>
-                        <ul className="text-white text-4xl">
+                <div className={sectionStyle({content: 'text'})}>
+                    <h2 className={textStyle({size: 'header'})}>Secondary Technology</h2>
+                    {/* <h3 className="text-white text-4xl">Other tech stacks I have experimented with: </h3> */}
+                        <ul className={textStyle({size: 'content'})}>
                             
                             <li>TypeScript</li>
                             <li>Angular</li>
