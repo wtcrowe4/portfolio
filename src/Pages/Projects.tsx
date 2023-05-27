@@ -6,21 +6,37 @@ import music from '../assets/screenshots/musiclib_screenshot.png'
 import monkey from '../assets/screenshots/monkeyfinder_screenshot.png'
 import finance from '../assets/screenshots/finance_screenshot.png'
 import realty from '../assets/screenshots/realty_screenshot.png'
+import { tv } from 'tailwind-variants'
 
 function Projects(): React.ReactElement {
     
+    const sectionStyle = tv({ 
+        base: 'col-span-1 m-20 project-content-section',
+    })
+
+    const textStyle = tv({
+        base: 'text-white',
+        variants: {
+            size: {
+                header: 'text-4xl about-sub-headers font-semibold pb-5',
+                content: 'text-2xl',
+            }
+        }
+    })
     
-    
-    
+    //"col-span-1 m-20 projects-content-section"
+    //"text-white text-4xl pb-5"
+    //"text-white text-2xl"
+
     return (
         <div className="projects-container w-100 m-auto mt-10">
             <div className="projects-header">
                 <h1 className="text-white m-20 header">Projects</h1>
             </div>
             <div className="projects-content grid grid-cols-2 row-auto m-20 p-10">
-                <div className="col-span-1 m-20 projects-content-section">
-                    <h2 className="text-white text-4xl pb-5">Texas Hold'em</h2>
-                    <p className="text-white text-2xl">This was my very first project. It is a simple frontend browser game styled with SCSS and currently being converted to Typescript.</p>
+                <div className={sectionStyle()}>
+                    <h2 className={textStyle({ size: 'header' })}>Texas Hold'em</h2>
+                    <p className={textStyle({ size: 'content' })}>This was my very first project. It is a simple frontend browser game styled with SCSS and currently being converted to Typescript.</p>
                 </div>
                 <div className="col-span-1 m-20 projects-picture-section">
                     <img className='p-0' src={holdem} alt="project1 screenshot"></img>
