@@ -1,7 +1,19 @@
 import React from 'react';
 import headshot from '../assets/images/headshot.jpg'
+import { tv } from 'tailwind-variants';
 
 function Contact(): React.ReactElement {
+
+    const textStyle = tv({
+        base: 'text-white text-4xl',
+        variants: {
+            content: {
+                header: 'text-4xl underline pb-3',
+                link: 'text-4xl contact-link',
+            }
+        }
+    })
+
     return (
         <div className="contact-container mt-10">
             <h1 className="text-white m-20 mt-10 header">Contact</h1>
@@ -9,16 +21,16 @@ function Contact(): React.ReactElement {
                 <div className="col-span-1 contact-content-section-text">
                    <ul id='contact-list'>
                         <li className='contact-list-item'>
-                            <h2 className="text-white text-4xl underline pb-3">Email: </h2>
-                            <a className='text-white text-4xl contact-link' href="*">wcrowe@g.clemson.edu</a>
+                            <h2 className={textStyle({ content: 'header' })}>Email: </h2>
+                            <a className={textStyle({ content: 'link' })} href="*">wcrowe@g.clemson.edu</a>
                         </li>
                         <li className='contact-list-item'>
-                            <h2 className="text-white text-4xl underline pb-3">Phone: </h2>
-                            <h2 className="text-white text-4xl">(864) 630-3512</h2>
+                            <h2 className={textStyle({ content: 'header' })}>Phone: </h2>
+                            <h2 className={textStyle()}>(864) 630-3512</h2>
                         </li>
                         <li className='contact-list-item'>
-                            <h2 className="text-white text-4xl underline pb-3">LinkedIn: </h2>
-                            <a className='text-white text-4xl contact-link' href="https://www.linkedin.com/in/wthomascrowe">wthomascrowe</a>
+                            <h2 className={textStyle({ content: 'header' })}>LinkedIn: </h2>
+                            <a className={textStyle({ content: 'link' })} href="https://www.linkedin.com/in/wthomascrowe">wthomascrowe</a>
                         </li>
                     </ul>
                 </div>
