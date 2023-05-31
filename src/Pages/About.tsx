@@ -80,9 +80,9 @@ function About(): React.ReactElement {
                     </p>
                 </div>
                 <div className={sectionStyle({content: 'text'})}>
-                    <h2 className="text-white text-4xl about-sub-headers pt-10">Main Technology</h2>
+                    <h2 className={textStyle({ size: 'header' })}>Main Technology</h2>
                     {/* <h3 className="text-white text-4xl">My main tech stack is: </h3> */}
-                        <ul className="text-white text-4xl pb-10">
+                        <ul className={textStyle({ size: 'content' })}>
                             {/* <li>HTML</li>
                             <li>CSS</li> */}
                             <li>SCSS</li>

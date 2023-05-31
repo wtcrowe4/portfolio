@@ -6,6 +6,7 @@ import music from '../assets/screenshots/musiclib_screenshot.png'
 import monkey from '../assets/screenshots/monkeyfinder_screenshot.png'
 import finance from '../assets/screenshots/finance_screenshot.png'
 import realty from '../assets/screenshots/realty_screenshot.png'
+import restrant from '../assets/screenshots/rest-rant_screenshot.png'
 import { tv } from 'tailwind-variants'
 
 function Projects(): React.ReactElement {
@@ -82,6 +83,13 @@ function Projects(): React.ReactElement {
                 </div>
                 <div className={sectionStyle()}>
                     <img src={realty} alt="project7 screenshot"></img>
+                </div>
+                <div className={sectionStyle()}>
+                    <h2 className={textStyle({ size: 'header' })}>Rest-rant</h2>
+                    <p className={textStyle({ size: 'content' })}>This was my first React/Node project that allows users to add resturants to the database and keeps track of everyone's rating of each resturant.</p>
+                </div>
+                <div className={sectionStyle()}>
+                    <img src={restrant} alt="project8 screenshot"></img>
                 </div>
             </div>
         </div>
