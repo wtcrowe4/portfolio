@@ -12,7 +12,7 @@ import { tv } from 'tailwind-variants'
 function Projects(): React.ReactElement {
     
     const sectionStyle = tv({ 
-        base: 'col-span-1 m-20 project-content-section',
+        base: 'col-span-1 m-20 projects-content-section',
     })
 
     const textStyle = tv({

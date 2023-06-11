@@ -21,8 +21,8 @@ function About(): React.ReactElement {
         base: 'text-white text-4xl',
         variants: {
             size: {
-                header: 'text-5xl about-sub-headers font-semibold',
-                content: 'text-4xl',
+                header: 'text-4xl about-sub-headers font-semibold p-5',
+                content: 'text-2xl',
             }
         }
     })

@@ -185,10 +185,10 @@
 }
 
 .about-sub-headers {
-  font-size: 5rem;
+  font-size: 2rem;
   text-shadow: 2px 2px 2px black;
   text-decoration: underline;
-  padding-bottom: 6rem;
+  padding-bottom: 3rem;
 }
 
 
@@ -200,7 +200,7 @@
   margin-top: 10vh;
   margin-bottom: 10vh;
   padding: 20px;
-  box-shadow: 1px 1px skyblue;
+  box-shadow: 2px 2px 2px 2px skyblue;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
