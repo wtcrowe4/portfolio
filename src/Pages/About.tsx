@@ -8,7 +8,7 @@ import { tv } from 'tailwind-variants'
 function About(): React.ReactElement {
     
     const sectionStyle = tv({
-        base: 'col-span-1 m-20',
+        base: 'col-span-1 m-10',
         variants: {
             content: {
                 text: 'about-content-section',
@@ -33,10 +33,10 @@ function About(): React.ReactElement {
     
     return (
         <div className="about-container mt-10">
-            <div className="about-header header">
-                <h1 className="text-white m-20 header">About Me</h1>
+            <div className="about-header">
+                <h1 className="text-white header">About Me</h1>
             </div>
-            <div className="about-content grid grid-cols-2 row-auto m-50 p-10">
+            <div className="about-content grid grid-cols-2 row-auto m-20 p-10">
                 <div className={sectionStyle({content: 'text'})}>
                     <h2 className={textStyle({size: 'header'})}>Personal Life</h2>
                     <p className={textStyle({size: 'content'})}>

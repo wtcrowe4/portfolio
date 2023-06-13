@@ -12,7 +12,7 @@ import { tv } from 'tailwind-variants'
 function Projects(): React.ReactElement {
     
     const sectionStyle = tv({ 
-        base: 'col-span-1 m-20 projects-content-section',
+        base: 'col-span-1 m-10 projects-content-section',
     })
 
     const textStyle = tv({
@@ -32,9 +32,9 @@ function Projects(): React.ReactElement {
     return (
         <div className="projects-container w-100 m-auto mt-10">
             <div className="projects-header">
-                <h1 className="text-white m-20 header">Projects</h1>
+                <h1 className="text-white header">Projects</h1>
             </div>
-            <div className="projects-content grid grid-cols-2 row-auto m-20 p-10">
+            <div className="projects-content grid grid-cols-2 row-auto p-10">
                 <div className={sectionStyle()}>
                     <h2 className={textStyle({ size: 'header' })}>Texas Hold'em</h2>
                     <p className={textStyle({ size: 'content' })}>This was my very first project. It is a simple frontend browser game styled with SCSS and currently being converted to Typescript.</p>

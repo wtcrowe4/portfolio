@@ -90,7 +90,7 @@
   }
 
   .header {
-    font-size: 12rem;
+    font-size: 10rem;
     font-weight: 800;
     font-family: Miss Saint Delafield;
     text-shadow: 2px 2px 2px skyblue;
@@ -102,7 +102,7 @@
   .hero-container {
   background: url(../assets/images/golf.png) repeat center center;
   background-size: cover;
-  border: 2px solid black;
+  border: 2px solid skyblue;
   box-shadow: 2px 2px 2px 2px black;
   height: 60vh;
   display: flex;
@@ -139,13 +139,13 @@
 
 .hero-text h1 {
   font-family: Miss Saint Delafield;
-  font-size: 12rem;
+  font-size: 10rem;
   text-shadow: 2px 2px 2px black;
   
 }
 
 .hero-text h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-shadow: 2px 2px 2px black;
   
 }
