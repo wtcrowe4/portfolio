@@ -22,7 +22,7 @@ function Contact(): React.ReactElement {
                    <ul id='contact-list'>
                         <li className='contact-list-item'>
                             <h2 className={textStyle({ content: 'header' })}>Email: </h2>
-                            <a className={textStyle({ content: 'link' })} href="*">wcrowe@g.clemson.edu</a>
+                            <a className={textStyle({ content: 'link' })} href="*">wtcrowe4@outlook.com</a>
                         </li>
                         <li className='contact-list-item'>
                             <h2 className={textStyle({ content: 'header' })}>Phone: </h2>
