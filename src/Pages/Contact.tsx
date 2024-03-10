@@ -9,7 +9,7 @@ function Contact(): React.ReactElement {
         variants: {
             content: {
                 header: 'text-4xl underline pb-3',
-                link: 'text-4xl contact-link',
+                link: 'text-3xl contact-link',
             }
         }
     })
