@@ -8,6 +8,7 @@ import finance from '../assets/screenshots/finance_screenshot.png'
 import realty from '../assets/screenshots/realty_screenshot.png'
 import restrant from '../assets/screenshots/rest-rant_screenshot.png'
 import weather from '../assets/screenshots/weather_screenshot.png'
+import fullStock from '../assets/screenshots/fullstock_screenshot.png'
 import { tv } from 'tailwind-variants'
 
 function Projects(): React.ReactElement {
@@ -98,6 +99,13 @@ function Projects(): React.ReactElement {
                 </div>
                 <div className={sectionStyle()}>
                     <img src={weather} alt="project9 screenshot"></img>
+                </div>
+                <div className={sectionStyle()}>
+                    <h2 className={textStyle({ size: 'header' })}>Full Stock</h2>
+                    <p className={textStyle({ size: 'content' })}></p>
+                </div>
+                <div className={sectionStyle()}>
+                    <img src={fullStock} alt="project10 screenshot"></img>
                 </div>
             </div>
         </div>
