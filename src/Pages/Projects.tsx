@@ -102,7 +102,7 @@ function Projects(): React.ReactElement {
                 </div>
                 <div className={sectionStyle()}>
                     <h2 className={textStyle({ size: 'header' })}>Full Stock</h2>
-                    <p className={textStyle({ size: 'content' })}></p>
+                    <p className={textStyle({ size: 'content' })}>FastAPI, SemanticUI, Alpaca Trade API</p>
                 </div>
                 <div className={sectionStyle()}>
                     <img src={fullStock} alt="project10 screenshot"></img>

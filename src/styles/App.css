@@ -319,15 +319,28 @@
   .hero-text h2 {
     font-size: 1.5rem;
   }
+  .header {
+    font-size: 6rem;
+  }
   .about-content-section {
     margin: 5px;
     padding: 5px;
+  }
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .projects-content-section {
     
     margin: 5px;
     padding: 5px;
   }
+
+  .projects-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
   .resume-image {
     width: 90vw;
   }
@@ -344,5 +357,10 @@
   }
   .footer-container ul li {
     font-size: 1.4rem;
+  }
+
+  /* Mobile */
+  @media screen  {
+    
   }
 }
