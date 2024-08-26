@@ -40,7 +40,7 @@ function About(): React.ReactElement {
                 <div className={sectionStyle({content: 'text'})}>
                     <h2 className={textStyle({size: 'header'})}>Personal Life</h2>
                     <p className={textStyle({size: 'content'})}>
-                        I am a 32 year old full stack web developer from Greenville, SC. I am recently married and we have a baby on the way.  I enjoy playing golf, chess, and fishing in my free time.  I like watching any type of sport and using stats to dive deeper into them.
+                        I am a 32 year old full stack web developer from Greenville, SC. My wife and I just welcomed our first daughter into the world this past December.  I enjoy playing golf, chess, and fishing in my free time.  I like watching any type of sport and using stats to dive deeper into them.
                     </p>
                 </div>
                 <div className={sectionStyle({content: 'photo'})}>

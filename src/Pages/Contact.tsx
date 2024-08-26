@@ -16,7 +16,7 @@ function Contact(): React.ReactElement {
 
     return (
         <div className="contact-container mt-10">
-            <h1 className="text-white m-20 mt-10 header">Contact</h1>
+            <h1 className="text-white m-20 mt-10 header content-header">Contact</h1>
             <div className="contact-content grid grid-cols-2 row-auto m-20 p-10">
                 <div className="col-span-1 contact-content-section-text">
                    <ul id='contact-list'>
