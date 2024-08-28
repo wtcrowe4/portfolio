@@ -214,13 +214,14 @@
 
 .resume-container {
   align-self: center;
+  padding-bottom: 0px;
   
 }
 
 .resume-image {
   border: 2px solid skyblue;
   width: 80vw;
-  padding-bottom: 200px;
+  margin-bottom: 200px;
   /* box-shadow: 2px 2px 2px 2px black; */
 }
 
